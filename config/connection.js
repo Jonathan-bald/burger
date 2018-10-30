@@ -21,5 +21,5 @@ connection.connect((err) => {
 })
 
 //exports the connetion for ORM
-connection.connection();
+
 module.exports = connection;
